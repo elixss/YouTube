@@ -38,7 +38,7 @@
                 "embed4": embed4        #assign the buttons to the embeds
         }
 
-        while True:
+        while True:             # this is important if you want that people can klick the buttons multiple times.
             event = await self.bot.wait_for("button_click")          
             if event.channel is not ctx.channel:                # wait for the button click, get the button id
                 return
@@ -50,7 +50,7 @@
                     )
                 if event.channel == ctx.channel:
                     await event.respond(    
-                        type=InteractionType.ChannelMessageWithSource,      # send the message
+                        type=4,      # send the message (7 is editing the message)
                         embed=response
                     )
                     
