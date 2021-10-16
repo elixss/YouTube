@@ -57,3 +57,5 @@ async def reload_memes(ctx):
     await msg.edit(content='Memes reloaded ✅!')
     
 # do your stuff here
+
+bot.run("ODc5Nzk1MjI3MjkwOTAyNTQ4.YSU7Jw.0iJ8w7NyJhP8gXvcvUlZQriFYrk")
