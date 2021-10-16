@@ -58,4 +58,4 @@ async def reload_memes(ctx):
     
 # do your stuff here
 
-bot.run("ODc5Nzk1MjI3MjkwOTAyNTQ4.YSU7Jw.0iJ8w7NyJhP8gXvcvUlZQriFYrk")
+
